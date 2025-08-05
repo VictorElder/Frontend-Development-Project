@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+                    <div class="navlogo">
+            <img src="assets/images/Meubel House_Logos-05.png" alt="brand logo" class="navlogo_img">
+            <p class="navlogo_item">Furniro</p>
+        </div>
+
+        <nav class="navbar">
+            <ul class="navbar_menu">
+                <li class="navbar_item"><a class="navbar_link" href="index.html">Home</a></li>
+                <li class="navbar_item"><a class="navbar_link" href="shop.html">Shop</a></li>
+                <li class="navbar_item"><a class="navbar_link" href="">About</a></li>
+                <li class="navbar_item"><a class="navbar_link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="navicon">
+            <a href=""><img class="navicon_img" src="assets/fonts/account-alert-outline.png" alt=""></a>
+            <a href=""><img class="navicon_img" src="assets/fonts/Vector.png" alt=""></a>
+            <a href=""><img class="navicon_img" src="assets/fonts/Vector--love.png" alt=""></a>
+            <a href=""><img class="navicon_img" src="assets/fonts/design_shopping-cart-outlined.png" alt=""></a>
+        </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+     <!-- FIRST CONTAINER -->
+
+    <main class="container">
+        <div class="first-container">
+            <div class="first-container__content">
+                <div class="first-container__item">
+                    <p class="first-container__item1">New Arrival</p>
+                <h1 class="first-container__item2">Discover Our <br> New Collection</h1>
+                <p class="first-container__item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, expedita beatae similique recusandae, cum vero</p>
+                </div>
+                <button class="first-container__btn">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="second-container">
+            <div class="second_container_item">
+                <h2 class="second-container__item1">
+                    Browse The Range
+                </h2>
+                <p class="second-container_item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis culpa.</p>
+            </div>
+            <div class="second-container_img">
+               <figure>
+                 <img src="assets/images/second_container--img1.png" alt="" class="second-container_img1">
+                <figcaption class="second-container_figcaption1">Dining</figcaption>
+               </figure>
+                <figure>
+                    <img src="assets/images/second_container--img2.png" alt="" class="second-container_img2">
+                <figcaption class="second-container_figcaption2">Living</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/second_container--img3.png" alt="" class="second-container_img3">
+                <figcaption class="second-container_figcaption3">Bedroom</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <h1 class="image-container_heading">
+                Our Products
+            </h1>
+            <div class="image-container_img">
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img1.png" alt="" class="image-container_img1">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Syltherine</h3>
+                        <p class="image_text">Stylish cafe chair</p>
+                        <p>Rp 2.500.000 <span class="image_spantext">Rp 3.500.000</span> </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/shop-img2.png" alt="" class="image-container_img2">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Leviosa</h3>
+                        <p class="image_text">Stylish cafe chair</p>
+                        <p>Rp 2.500.000</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img3.png" alt="" class="image-container_img3">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Lolito</h3>
+                        <p class="image_text">Luxury big sofa</p>
+                        <p>Rp 7.000.000 <span class="image_spantext">Rp 14.000.000</span> </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img4.png" alt="" class="image-container_img4">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Respira</h3>
+                        <p class="image_text">Outdoor bar table and stool</p>
+                        <p>Rp 500.000</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img5.png" alt="" class="image-container_img5">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Grifo</h3>
+                        <p class="image_text">Night lamp</p>
+                        <p>Rp 1.500.000</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img6.png" alt="" class="image-container_img6">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Muggo</h3>
+                        <p class="image_text">Small mug</p>
+                        <p>Rp 150.000</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img7.png" alt="" class="image-container_img7">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Pingky</h3>
+                        <p class="image_text">Cute bed set</p>
+                        <p>Rp 7.000.000 <span class="image_spantext">Rp 14.000.000</span> </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="product-card">
+                    <div class="overlay">
+                        <button onClick="addToCart()" class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Share</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-left-right"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/image-content--img8.png" alt="" class="image-container_img8">
+                    <figcaption class="image-container_figcaption">
+                        <h3>Potty</h3>
+                        <p class="image_text">Minimalist flower pot</p>
+                        <p>Rp 500.000</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <button class="image-container_btn">
+                Show More
+            </button>
+        </div>
+
+        <!-- FOURTH CONTAINER -->
+
+        <div class="fourth-container">
+            <div class="fourth-container_content">
+                <div class="fourth_content">
+                    <h2 class="fourth-container_heading">50 + Beautiful rooms inspiration</h2>
+                <p class="fourth-container_text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                </div>
+                <button class="fourth-container_btn">Explore more</button>
+            </div>
+            <div class="slider_container">
+                   <button class="prev_btn">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </button>
+
+                <div class="slider">
+                    <img src="assets/images/fourth-content--img1.png" alt="" class="slider_img">
+
+                    <img src="assets/images/fourth-content--img2.png" alt="" class="slider_img">
+
+                    <img src="assets/images/fourth-content--img3.png" alt="" class="slider_img ">
+
+                    <img src="assets/images/fourth-content--img2.png" alt="" class="slider_img">
+                </div>
+
+                <button class="slider_btn">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="fifth-container">
+            <div class="fifth-container_item">
+                <p class="fifth-container_text">Share your setup with</p>
+                <h1>#FuniroFurniture</h1>
+            </div>
+
+            <div class="image_gallery">
+                <img src="assets/images/fifth-content--img1.png" alt="">
+
+                <img src="assets/images/fifth-content--img2.png" alt="">
+
+                <img src="assets/images/fifth-content--img3.png" alt="">
+
+                <img src="assets/images/fifth-content--img4.png" alt="">
+
+                <img src="assets/images/fifth-content--img5.png" alt="">
+            </div>
+
+            <div class="image_gallery">
+                <img src="assets/images/fifth-content--img6.png" alt="">
+
+                <img src="assets/images/fifth-content--img7.png" alt="">
+
+                <img src="assets/images/fifth-content--img8.png" alt="">
+
+                <img src="assets/images/fifth-content--img9.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+            <div class="footer_content">
+                <div class="footer_items">
+                    <div class="footer_item1">
+                    <h3 class="footer_header">Funiro</h3>
+                    <p class="item1_text">400 University Drive Suite 200 Coral Gables, <br> FL 33134 USA</p>
+                </div>
+                <div class="footer_item2">
+                    <div class="footer_links">
+                        <div class="footer_link1">
+                        <p class="footer_link1head">Link</p>
+                        <ul class="link1_unorderedlist">
+                            <a class="link1_links" href="index.html"><li class="link1_listitems" >Home</li></a>
+                            <a class="link1_links" href="shop.html"><li class="link1_listitems" >Shop</li></a>
+                            <a class="link1_links" href=""><li class="link1_listitems" >About</li></a>
+                            <a class="link1_links" href="contact.html"><li class="link1_listitems" >Contact</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer_link2">
+                        <p class="footer_link2head">Help</p>
+                        <ul class="link2_unorderedlist">
+                           <a  class="link2_links" href=""><li  class="link2_listitems">Payment Options</li></a>
+                            <a class="link2_links"  href=""><li class="link2_listitems">Returns</li></a>
+                            <a class="link2_links"  href=""><li class="link2_listitems">Privacy Policies</li></a>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <div class="footer_lastitem">
+                    <p class="lastitem_head">Newsletter</p>
+                    <div class="lastitem_text">
+                        <span class="lastitem_spantext">Enter Your Email Address</span><span class="lastitem_spantext">SUBSCRIBE</span> 
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="footer_lasttext">
+                    <p>2023 furino. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

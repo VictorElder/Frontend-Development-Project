@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
+    <section class="section">
         <nav class="nav-section">
         <div class="nav">
                     <div class="navlogo">
@@ -27,15 +27,13 @@
 
         <div class="navicon">
             <a href="checkout.html"><img class="navicon_img" src="assets/fonts/account-alert-outline.png" alt=""></a>
-            <a href=""><img class="navicon_img" src="assets/fonts/Vector.png" alt=""></a>
+            <a href="cart.html"><img class="navicon_img" src="assets/fonts/Vector.png" alt=""></a>
             <a href="product-comparison.html"><img class="navicon_img" src="assets/fonts/Vector--love.png" alt=""></a>
-            <a href="cart.html"><img class="navicon_img" src="assets/fonts/design_shopping-cart-outlined.png" alt=""></a>
+            <a href=""><img id="cart-el" class="navicon_img" src="assets/fonts/design_shopping-cart-outlined.png" alt=""></a>
         </div>
         </div>
     </nav>
-    </section>
 
-    <section>
         <header class="shop-header">
             <h1 class="shopheader-head">Shop</h1>
             <div class="shopheader-spantext">
@@ -44,9 +42,7 @@
                 <span class="shopheader-spantext2">Shop</span>
             </div>
         </header>
-    </section>
 
-    <section>
         <div class="shop-subheader">
             <div class="subheader-content1">
                 <i class="fa fa-sliders" aria-hidden="true"></i>
@@ -67,7 +63,6 @@
                 </div>
             </div>
         </div>
-    </section>
 
     <main>
         <div class="shop-container">
@@ -543,7 +538,6 @@
         </div>
     </main>
 
-    <section>
         <footer class="shop-footer">
             <div class="footer_content">
                 <div class="footer_items">
@@ -586,7 +580,46 @@
                 </div>
             </div>
         </footer>
-    </section>
+
+        <div id="sidebar-el" class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-content1">
+                <h2 class="sidebar-content1head">Shopping Cart <img src="assets/fonts/sidebar-icon1.png" alt="" class="sidebar-icon"></h2>
+
+                <div class="sidebar-horizontalrule1"></div>
+
+                <div class="sidebar-item1">
+                    <span class="sidebar-item1span1"><img src="assets/images/sidebar-img1.png" alt="" class="sidebar-img1"></span>
+                    <span class="sidebar-item1span2">
+                        <p class="sidebar-item1text1">Asgard Sofa</p>
+                        <p class="sidebar-item1text2">1 x <span class="sidebar-text2span">Rs 250.000.00</span></p>
+                    </span>
+                    <span><i class="fa fa-times-circle"></i></span>
+                </div>
+
+                <div class="sidebar-item2">
+                    <span class="sidebar-item2span1"><img src="assets/images/sidebar-img2.png" alt="" class="sidedbar-img2"></span>
+                    <span class="sidebar-item2span2">
+                        <p class="sidebar-item2text1">Casallving wood</p>
+                        <p class="sidebar-item2text2">1 x Rs <span class="sidebar-text2span">270.000.00</span></p>
+                    </span>
+                    <span><i class="fa fa-times-circle"></i></span>
+                </div>
+            </div>
+
+                <div class="sidebar-content2">
+                    <p class="sidebar-content2text">Subtotal <span class="sidebar-content2span">Rs 250.000.00</span></p>
+                    <div class="sidebar-horizontalrule2"></div>
+                    <span class="sidebar-content2button">
+                        <button class="sidebar-content2btn1">Cart</button>
+                        <button class="sidebar-content2btn2">Checckout</button>
+                        <button class="sidebar-content2btn3">Comparison</button>
+                    </span>
+                </div>
+        </div>
+        </div>
+
+        </section>
 
 
     <script src="js/script.js"></script>

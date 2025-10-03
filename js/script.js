@@ -16,7 +16,7 @@ for(i = 0; i<addToCart.length; i++){
     
     addToCart[i].addEventListener('click', function(){
         
-        notificationAlert.style.display = "block" ;k
+        notificationAlert.style.display = "block" ;
         notificationText.style.display = "block";
         
         setTimeout(function(){

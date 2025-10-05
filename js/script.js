@@ -1,6 +1,7 @@
 let slider = document.querySelector(".slider")
 const nextBtn = document.querySelector(".slider_btn")
 const prevBtn = document.querySelector(".prev_btn")
+let navSection = document.querySelectorAll(".nav-section")
 let cartEl = document.getElementById("cart-el")
 let sidebarEl = document.getElementById("sidebar-el")
 let sideContent = document.getElementById("side-content")
